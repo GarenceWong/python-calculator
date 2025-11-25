@@ -38,8 +38,8 @@ def divide(a, b):
     return result
 
 
-def power(a, b): # Added power
-    """Return the difference of two numbers."""
+def power(a, b):  # Added power
+    """Return a to the power of b."""
     result = a ** b
     if DEBUG:
         print(f"DEBUG: {a} ** {b} = {result}")
