@@ -32,7 +32,8 @@ def divide(a, b):
     if DEBUG:
         print(f"DEBUG: {a} ÷ {b} = {result}")
     return result
-def power(a, b):
+
+def power(a, b): # Added power
     """Return the difference of two numbers."""
     result = a ** b
     if DEBUG:
