@@ -6,6 +6,8 @@ on:
 
 jobs:
   test:
+    needs: lint
+  test:
     runs-on: ${{ matrix.os }}
     
     strategy:
